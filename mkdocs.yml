@@ -1,0 +1,22 @@
+site_name: Neraj Chand - Docs
+theme:
+  name: material
+  palette:
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep-purple
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
